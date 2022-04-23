@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<style type="text/css">
+	body{
+		background-image: url("img/f1.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.navbar{
+		width: 1500px;
+		height: 50px;
+		background-color: black;
+	}
+	ul{
+		display: flex;
+		justify-content: space-around;
+		width: 50%;
+		margin: auto;
+		/*background-color: red;*/
+		padding-top:12px ;
+	}
+	ul li{
+		list-style: none;
+		color: gold;
+		cursor: pointer;
+		font-size: 20px;
+	}
+	.flexcontainer{
+		display: flex;
+		justify-content: space-around;
+		margin-top: 24px;
+	}
+	.box{
+		border: 1px solid black;
+		padding: 10px;
+		background-color: black;
+		opacity: .8;
+		width: 25%;
+		margin-top: 10%;
+	}
+	p{
+		color: white;
+		font-size: 20px;
+		letter-spacing: 1px;
+		word-spacing: 2px;
+		font-family: Caudex;
+	}
+	h1{
+		color: white;
+	}
+	@media screen and (max-width: 480px){
+		.box{
+			border: 1px solid black;
+		padding: 10px;
+		background-color: black;
+		opacity: .8;
+		width: 80%;
+		margin-top: 10%;
+		margin-left: 25px;
+		}
+		ul{
+			margin: 0px;
+			padding: 0px;
+			width: 25%;
+		}
+		ul li{
+			font-size: 16px;
+			padding-top: 10px;
+
+		}
+		.flexcontainer{
+			flex-direction: column;
+			justify-content: space-around;
+			margin-top: 24px;
+		}
+	}
+	@media screen and (min-width: 481px) and (max-width: 780px){
+		.box{
+		border: 1px solid black;
+		padding: 10px;
+		background-color: black;
+		opacity: .8;
+		width: 80%;
+		margin-top: 10%;
+		margin-left: 25px;
+		}
+		ul{
+			margin: 0px;
+			/*padding: 0px;*/
+			width: 32%;
+			/*align-items: flex-start;*/
+		}
+		ul li{
+			font-size: 16px;
+			padding-top: 10px;
+
+		}
+		.flexcontainer{
+			flex-direction: column;
+			/*justify-content: space-around;*/
+			margin-top: 24px;
+			margin-left: 30px;
+		}
+	}
+		@media screen and (min-width: 780px) and (max-width: 940px){
+		.box{
+		border: 1px solid black;
+		padding: 10px;
+		background-color: black;
+		opacity: .8;
+		width: 80%;
+		margin-top: 10%;
+		margin-left: 25px;
+		}
+		ul{
+			margin: 0px;
+			/*padding: 0px;*/
+			width: 40%;
+			/*align-items: flex-start;*/
+		}
+		ul li{
+			font-size: 22px;
+			padding-top: 10px;
+
+		}
+		.flexcontainer{
+			flex-direction: column;
+			/*justify-content: space-around;*/
+			margin-top: 24px;
+			margin-left: 30px;
+		}
+
+
+</style>
+<body>
+ <div class="navbar">
+ 	<ul>
+ 		<li>Home</li>
+ 		<li>Gallery</li>
+ 		<li>About us</li>
+ 		<li>Contact us</li>
+ 	</ul>
+ </div>
+ <div class="flexcontainer">
+ 	<div class="box">
+ 		<center><h1>Heading</h1></center>
+ 		<p>A HTML heading or HTML h tag can be defined as a title or a subtitle which you want to display on the webpage. When you place the text within the heading tags , it is displayed on the browser in the bold format and size of the text depends on the number of heading.There are six different HTML headings which are defined with the h1 to h6 tags.</p>
+ 	</div>
+ 	<div class="box">
+ 		<center><h1>Paragraph</h1></center>
+ 		<p>The p HTML element represents a paragraph. Paragraphs are usually represented in visual media as blocks of text separated from adjacent blocks by blank lines and/or first-line indentation, but HTML paragraphs can be any structural grouping of related content, such as images or form fields.</p>
+ 	
+ 	</div>
+ 	<div class="box">
+ 		<center><h1>Image</h1></center>
+ 		<p>The img tag is used to embed an image in an HTML page. Images are not technically inserted into a web page; images are linked to web pages. The <img> tag creates a holding space for the referenced image.</p>
+ 	</div>
+ </div>
+</body>
+</html>
